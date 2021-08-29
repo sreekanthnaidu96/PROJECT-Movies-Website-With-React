@@ -1,3 +1,19 @@
+FOR THIS PROJECT TO WORK GO TO https://www.themoviedb.org and create an account and then request for an API KEY
+
+
+Once you get Your own API key create a new file with the name of ".env" and PLACE THAT CODE IN IT
+
+SORRY I CAN'T SHARE MY API KEY WITH YOU 
+
+creating an api key is simple go do it first
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
