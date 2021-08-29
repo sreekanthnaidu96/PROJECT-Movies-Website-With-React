@@ -1,0 +1,80 @@
+.img-landscape {
+  object-fit: contain;
+  border: radius 10px;
+}
+.img-potrait {
+  display: none;
+  object-fit: contain;
+  border: radius 10px;
+}
+.my_tagline {
+  padding-bottom: 10px;
+  align-self: center;
+}
+.MYModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.MYModal::-webkit-scrollbar {
+  display: none;
+}
+.modalAbout {
+  padding: 10px;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+.modal-title {
+  height: 12%;
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-description {
+  display: flex;
+  height: 40%;
+  overflow-y: scroll;
+  padding: 15px;
+  border-radius: 20px;
+  scrollbar-width: thin;
+  text-align: justify;
+  box-shadow: inset 0 0 5px black;
+}
+.modal-description::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 835px) {
+  .img-landscape {
+    display: none;
+  }
+  .img-potrait {
+    display: flex;
+    width: 38%;
+  }
+  .MYModal {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  .modalAbout {
+    width: 58%;
+    padding: 0;
+    height: 100%;
+  }
+  .modal-title {
+    font-size: 3.5vw;
+  }
+  .modal-description {
+    font-size: 22px;
+  }
+}
