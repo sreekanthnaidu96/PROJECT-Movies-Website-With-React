@@ -1,7 +1,7 @@
 FOR THIS PROJECT TO WORK GO TO https://www.themoviedb.org and create an account and then request for an API KEY
 
 
-Once you get Your own API key create a new file with the name of ".env" and PLACE THAT CODE IN IT
+Once you get Your own API key create a new file with the name of ".env" and PLACE THAT KEY IN IT
 
 SORRY I CAN'T SHARE MY API KEY WITH YOU 
 
